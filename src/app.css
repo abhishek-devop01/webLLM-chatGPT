@@ -1,0 +1,64 @@
+main {
+  height: 100%;
+  width: 100%;
+  background-color: #222121;
+}
+main section {
+  height: 100%;
+  width: 100%;
+}
+main .conversation-area {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+main .conversation-area .messages {
+  height: 100%;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.1em;
+  padding-bottom: 4rem;
+  padding: 0.5em;
+}
+main .conversation-area .messages .message {
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 0.5em 1em;
+  background-color: #4a4a4a;
+  border-radius: 0.5em;
+  color: rgb(248, 244, 233);
+  max-width: 75%;
+}
+main .conversation-area .messages .messageuser {
+  align-self: flex-end;
+}
+main .conversation-area .input-area {
+  width: 70%;
+  position: absolute;
+  background-color: #3c3c3c;
+  border: 1px solid #3c3c3c;
+  border-radius: 0.5em;
+  bottom: 2rem;
+}
+main .conversation-area .input-area input {
+  width: 80%;
+  padding: 0.5em 0.7em;
+  outline: none;
+  border-radius: 0.5em;
+  background-color: transparent;
+  border: none;
+  color: #d3d3d3;
+}
+main .conversation-area .input-area button {
+  width: 20%;
+  padding: 0.5em 0.7em;
+  border-radius: 0.45em;
+  border: none;
+  background-color: #0f0f0f;
+  color: #d3d3d3;
+  cursor: pointer;
+}/*# sourceMappingURL=app.css.map */
